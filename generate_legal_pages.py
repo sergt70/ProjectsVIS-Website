@@ -560,13 +560,13 @@ def localize_footer(text: str, lang: str) -> str:
         1,
     )
     text = text.replace(
-        '<a href="mailto:legal@vis.example">Legal Contact</a>',
-        f'<a href="mailto:legal@vis.example">{ui["footer_contact"]}</a>',
+        '<a href="mailto:legal@visautomation.com">Legal Contact</a>',
+        f'<a href="mailto:legal@visautomation.com">{ui["footer_contact"]}</a>',
         1,
     )
     text = text.replace(
-        '<a href="mailto:privacy@vis.example">Privacy Contact</a>',
-        f'<a href="mailto:privacy@vis.example">{ui["footer_contact"]}</a>',
+        '<a href="mailto:privacy@visautomation.com">Privacy Contact</a>',
+        f'<a href="mailto:privacy@visautomation.com">{ui["footer_contact"]}</a>',
         1,
     )
 
@@ -726,12 +726,12 @@ def main() -> int:
 
             if lang == "ar":
                 text = text.replace(
-                    '<a href="mailto:legal@vis.example">',
-                    '<a href="mailto:legal@vis.example" dir="ltr">',
+                    '<a href="mailto:legal@visautomation.com">',
+                    '<a href="mailto:legal@visautomation.com" dir="ltr">',
                 )
                 text = text.replace(
-                    '<a href="mailto:privacy@vis.example">',
-                    '<a href="mailto:privacy@vis.example" dir="ltr">',
+                    '<a href="mailto:privacy@visautomation.com">',
+                    '<a href="mailto:privacy@visautomation.com" dir="ltr">',
                 )
 
             target.write_text(text, encoding="utf-8")
