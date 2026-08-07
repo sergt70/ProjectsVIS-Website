@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "language": "nl",
+    "locale": "nl_NL",
+    "title": "VIS — AI-gestuurde contentcreatie en publicatie",
+    "description": "VIS is een AI-platform dat makers, bedrijven en organisaties helpt digitale content te maken, beheren en publiceren op meerdere sociale media.",
+    "keywords": "VIS, Viral Intelligence System, AI-platform, contentcreatie, sociale media, contentbeheer, OAuth"
+  },
+  "navigation": {
+    "skipToContent": "Ga naar hoofdinhoud",
+    "homeAriaLabel": "VIS-startpagina",
+    "primaryAriaLabel": "Hoofdnavigatie",
+    "languageAriaLabel": "Selecteer taal",
+    "platform": "Platform",
+    "capabilities": "Mogelijkheden",
+    "security": "Beveiliging",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Officiële VIS-website",
+    "title": "Maak, beheer en publiceer content",
+    "titleAccent": "met AI-automatisering",
+    "description": "VIS is een AI-platform dat makers, bedrijven en organisaties helpt digitale content te maken, beheren en publiceren op meerdere sociale media.",
+    "primaryButton": "Naar VIS",
+    "secondaryButton": "Privacybeleid",
+    "noteOAuth": "Officiële OAuth-koppelingen",
+    "noteAuthorized": "Alleen geautoriseerde accounts",
+    "noteEncrypted": "Versleutelde tokenopslag",
+    "previewWorkflowLabel": "Contentworkflow",
+    "previewWorkflowValue": "AI-ondersteund",
+    "previewPublishingLabel": "Publicatie",
+    "previewPublishingValue": "Geautoriseerd",
+    "previewOperationsLabel": "Multiplatform-operaties"
+  },
+  "platform": {
+    "eyebrow": "Platform",
+    "title": "Eén werkruimte voor moderne digitale contentprocessen",
+    "description": "VIS ondersteunt gestructureerde workflows van voorbereiding en beheer tot geautoriseerde publicatie en prestatieanalyse.",
+    "creationTitle": "Contentcreatie",
+    "creationText": "Maak digitale content met AI-ondersteunde processen terwijl je de controle behoudt.",
+    "managementTitle": "Contentbeheer",
+    "managementText": "Beheer publicatieklare content, platformspecifieke teksten en mediabestanden in één workflow.",
+    "publishingTitle": "Geautoriseerde publicatie",
+    "publishingText": "Publiceer alleen naar accounts die vrijwillig via officiële autorisatie zijn gekoppeld."
+  },
+  "capabilities": {
+    "eyebrow": "Belangrijkste mogelijkheden",
+    "title": "Voor makers, bedrijven en geautoriseerd accountbeheer",
+    "description": "VIS is geschikt voor makers, organisaties en bureaus die met toestemming klantaccounts beheren.",
+    "multiPlatformTitle": "Multiplatform-contentbeheer",
+    "multiPlatformText": "Bereid content voor meerdere sociale platforms voor zonder wachtwoorden te delen of regels te omzeilen.",
+    "multiPlatformItems": [
+      "Platformspecifieke voorbereiding",
+      "Gestructureerde publicatieworkflows",
+      "Geautoriseerde accountkoppelingen",
+      "Status- en resultaatbewaking"
+    ],
+    "responsibleTitle": "Verantwoorde automatisering",
+    "responsibleText": "VIS automatiseert terugkerende taken met respect voor eigenaarschap, autorisatie en platformregels.",
+    "responsibleItems": [
+      "Geen verzameling van wachtwoorden",
+      "Geen ongeautoriseerde toegang",
+      "Geen garanties voor bereik of inkomsten",
+      "Geen spam of misleidende activiteiten"
+    ]
+  },
+  "security": {
+    "eyebrow": "OAuth en gegevensbescherming",
+    "title": "Accounts blijven onder controle van hun eigenaar",
+    "description": "VIS gebruikt officiële OAuth-mechanismen. Toegang is beperkt tot goedgekeurde rechten.",
+    "items": [
+      {
+        "title": "Geen opslag van wachtwoorden",
+        "text": "VIS vraagt of bewaart geen wachtwoorden van gekoppelde accounts."
+      },
+      {
+        "title": "Toegang op basis van rechten",
+        "text": "Functies worden alleen uitgevoerd binnen goedgekeurde OAuth-machtigingen."
+      },
+      {
+        "title": "Versleutelde tokens",
+        "text": "OAuth-tokens worden versleuteld opgeslagen."
+      },
+      {
+        "title": "Intrekbare koppelingen",
+        "text": "De eigenaar kan toegang intrekken of verwijdering van gekoppelde gegevens aanvragen."
+      }
+    ],
+    "noticeLabel": "Belangrijk:",
+    "noticeText": "VIS verkoopt geen persoonsgegevens en belooft geen weergaven, bereik, volgers of inkomsten."
+  },
+  "policies": {
+    "eyebrow": "Transparantie",
+    "title": "Duidelijke regels voor gebruikers, klanten en gekoppelde accounts",
+    "description": "Lees hoe VIS gegevens verwerkt en welke voorwaarden gelden.",
+    "privacyButton": "Privacybeleid",
+    "termsButton": "Servicevoorwaarden"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Vragen over VIS of gekoppelde accounts?",
+    "description": "Neem contact op met het VIS-team voor service-, privacy- of ontkoppelingsverzoeken.",
+    "email": "contact@vis.example",
+    "temporaryNotice": "Dit tijdelijke e-mailadres wordt vervangen zodra het officiële VIS-domein is geregistreerd."
+  },
+  "footer": {
+    "description": "VIS is een AI-platform voor het maken, beheren en publiceren van digitale content via geautoriseerde sociale-media-verbindingen.",
+    "home": "Home",
+    "privacy": "Privacybeleid",
+    "terms": "Servicevoorwaarden",
+    "contact": "Contact",
+    "copyright": "© 2026 VIS — Viral Intelligence System.",
+    "rights": "Alle rechten voorbehouden."
+  }
+}

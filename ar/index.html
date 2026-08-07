@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VIS — إنشاء المحتوى وإدارته ونشره بالذكاء الاصطناعي</title>
+
+    <meta
+        name="description"
+        content="VIS منصة مدعومة بالذكاء الاصطناعي تساعد المبدعين والشركات والمؤسسات على إنشاء المحتوى الرقمي وإدارته ونشره عبر منصات متعددة للتواصل الاجتماعي."
+    >
+    <meta
+        name="keywords"
+        content="VIS, Viral Intelligence System, منصة ذكاء اصطناعي, إنشاء المحتوى, النشر على وسائل التواصل الاجتماعي, إدارة المحتوى, OAuth"
+    >
+    <meta name="author" content="VIS — Viral Intelligence System">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#07111F">
+    <meta name="color-scheme" content="dark">
+
+    <link rel="canonical" href="https://example.com/ar/">
+    <link rel="alternate" hreflang="en" href="https://example.com/ar/">
+    <link rel="alternate" hreflang="ru" href="https://example.com/ru/">
+    <link rel="alternate" hreflang="es" href="https://example.com/es/">
+    <link rel="alternate" hreflang="x-default" href="https://example.com/ar/">
+
+    <link
+        rel="icon"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon.ico"
+        sizes="any"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon-32x32.png"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon-16x16.png"
+    >
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/apple-touch-icon.png"
+    >
+    <link
+        rel="manifest"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/site.webmanifest"
+    >
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_AR">
+    <meta property="og:site_name" content="VIS — Viral Intelligence System">
+    <meta property="og:title" content="VIS — إنشاء المحتوى وإدارته ونشره بالذكاء الاصطناعي">
+    <meta
+        property="og:description"
+        content="أنشئ المحتوى الرقمي وأدره وانشره عبر منصات متعددة للتواصل الاجتماعي باستخدام VIS."
+    >
+    <meta property="og:url" content="https://example.com/ar/">
+    <meta
+        property="og:image"
+        content="https://example.com/assets/images/BrandAssets/VIS_Brand_Assets_v1.0/04_OpenGraph/og-image.png"
+    >
+    <meta
+        property="og:image:secure_url"
+        content="https://example.com/assets/images/BrandAssets/VIS_Brand_Assets_v1.0/04_OpenGraph/og-image.png"
+    >
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta
+        property="og:image:alt"
+        content="VIS — Viral Intelligence System"
+    >
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VIS — إنشاء المحتوى وإدارته ونشره بالذكاء الاصطناعي">
+    <meta
+        name="twitter:description"
+        content="أنشئ المحتوى الرقمي وأدره وانشره عبر منصات متعددة للتواصل الاجتماعي باستخدام VIS."
+    >
+    <meta
+        name="twitter:image"
+        content="https://example.com/assets/images/BrandAssets/VIS_Brand_Assets_v1.0/04_OpenGraph/twitter-card.png"
+    >
+    <meta
+        name="twitter:image:alt"
+        content="VIS — Viral Intelligence System"
+    >
+
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script src="../assets/js/site.js" defer></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://example.com/#organization",
+                "name": "VIS — Viral Intelligence System",
+                "alternateName": "VIS",
+                "url": "https://example.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://example.com/assets/images/BrandAssets/VIS_Brand_Assets_v1.0/02_PNG/VIS-Mark-512.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "description": "VIS منصة مدعومة بالذكاء الاصطناعي لإنشاء المحتوى الرقمي وإدارته ونشره عبر اتصالات مصرح بها مع منصات التواصل الاجتماعي.",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "customer support",
+                    "email": "contact@vis.example",
+                    "availableLanguage": [
+                        "العربية"
+                    ]
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://example.com/#website",
+                "url": "https://example.com/",
+                "name": "VIS — Viral Intelligence System",
+                "publisher": {
+                    "@id": "https://example.com/#organization"
+                },
+                "inLanguage": "ar"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://example.com/ar/#webpage",
+                "url": "https://example.com/ar/",
+                "name": "VIS — إنشاء المحتوى وإدارته ونشره بالذكاء الاصطناعي",
+                "description": "VIS منصة مدعومة بالذكاء الاصطناعي تساعد المبدعين والشركات والمؤسسات على إنشاء المحتوى الرقمي وإدارته ونشره عبر منصات متعددة للتواصل الاجتماعي.",
+                "isPartOf": {
+                    "@id": "https://example.com/#website"
+                },
+                "about": {
+                    "@id": "https://example.com/#organization"
+                },
+                "inLanguage": "ar"
+            }
+        ]
+    }
+    </script>
+
+<style>
+    html[dir="rtl"] body {
+        direction: rtl;
+        text-align: right;
+    }
+
+    html[dir="rtl"] .site-header__inner,
+    html[dir="rtl"] .hero__grid,
+    html[dir="rtl"] .section-heading,
+    html[dir="rtl"] .footer__inner,
+    html[dir="rtl"] .footer__bottom {
+        direction: rtl;
+    }
+
+    html[dir="rtl"] .hero__content,
+    html[dir="rtl"] .section-heading,
+    html[dir="rtl"] .card,
+    html[dir="rtl"] .security-card,
+    html[dir="rtl"] .contact-section,
+    html[dir="rtl"] .footer {
+        text-align: right;
+    }
+
+    html[dir="rtl"] ul,
+    html[dir="rtl"] .feature-list {
+        padding-right: 0;
+    }
+</style>
+
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">الانتقال إلى المحتوى الرئيسي</a>
+
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="/ar/" aria-label="الصفحة الرئيسية لـ VIS">
+                        <svg
+                            class="brand-logo"
+                            viewBox="0 0 1280 360"
+                            role="img"
+                            aria-label="VIS — Viral Intelligence System"
+                            style="width: 215px; height: auto;"
+                        >
+                            <defs>
+                                <linearGradient id="visGoldHeader" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#F4D06A"/>
+                                    <stop offset="52%" stop-color="#D6A23A"/>
+                                    <stop offset="100%" stop-color="#A86D16"/>
+                                </linearGradient>
+                            </defs>
+
+                            <g transform="translate(62 38)">
+                                <path
+                                    d="M150 0 L205 55 L150 110 L95 55 Z"
+                                    fill="url(#visGoldHeader)"
+                                />
+                                <path
+                                    d="M0 88 H52 L150 248 L118 304 Z"
+                                    fill="url(#visGoldHeader)"
+                                />
+                                <path
+                                    d="M300 88 H248 L150 248 L182 304 Z"
+                                    fill="url(#visGoldHeader)"
+                                />
+                            </g>
+
+                            <g transform="translate(430 78)">
+                                <text
+                                    x="0"
+                                    y="126"
+                                    font-family="Arial, Helvetica, sans-serif"
+                                    font-size="154"
+                                    font-weight="700"
+                                    letter-spacing="10"
+                                    fill="#FFFFFF"
+                                >VIS</text>
+                                <text
+                                    x="4"
+                                    y="202"
+                                    font-family="Arial, Helvetica, sans-serif"
+                                    font-size="34"
+                                    font-weight="500"
+                                    letter-spacing="5.5"
+                                    fill="#C9D2DE"
+                                >VIRAL INTELLIGENCE SYSTEM</text>
+                            </g>
+                        </svg>
+                    </a>
+
+                <nav class="main-nav" aria-label="التنقل الرئيسي">
+                    <a href="#platform">المنصة</a>
+                    <a href="#capabilities">الإمكانات</a>
+                    <a href="#security">الأمان</a>
+                    <a href="#contact">اتصل بنا</a>
+                </nav>
+
+                <div class="header-actions">
+                    <div class="language-switcher">
+                        <label class="sr-only" for="language-select">اللغة</label>
+                        <select
+                            id="language-select"
+                            aria-label="اختر اللغة"
+                            onchange="window.location.href = this.value"
+                        >
+                            <option value="/en/">English</option>
+                            <option value="/ar/" selected>العربية</option>
+                            <option value="/ru/">Русский</option>
+                            <option value="/es/">Español</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <section class="hero">
+                <div class="container hero-grid">
+                    <div class="hero-copy">
+                        <span class="eyebrow reveal">الموقع الرسمي لـ VIS</span>
+
+                        <h1 class="reveal reveal--delay-1">
+                            أنشئ المحتوى وأدره وانشره
+                            <span class="gradient-text">عبر تدفقات عمل مدعومة بالذكاء الاصطناعي</span>
+                        </h1>
+
+                        <p class="lead reveal reveal--delay-2">
+                            VIS منصة مدعومة بالذكاء الاصطناعي تساعد المبدعين والشركات
+                            والمؤسسات على إنشاء المحتوى الرقمي وإدارته ونشره
+                            عبر منصات متعددة للتواصل الاجتماعي.
+                        </p>
+
+                        <div class="button-row hero-actions reveal reveal--delay-3">
+                            <a class="button button--primary" href="#platform">
+                                فتح VIS
+                            </a>
+
+                            <a class="button button--secondary" href="/ar/privacy/">
+                                سياسة الخصوصية
+                            </a>
+                        </div>
+
+                        <div class="hero-note reveal reveal--delay-3">
+                            <span>اتصالات OAuth الرسمية</span>
+                            <span>الحسابات المصرح بها فقط</span>
+                            <span>تخزين الرموز بشكل مشفر</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual reveal reveal--delay-2" aria-hidden="true">
+                        <div class="dashboard-preview">
+                            <div class="preview-topbar">
+                                <span class="preview-dot"></span>
+                                <span class="preview-dot"></span>
+                                <span class="preview-dot"></span>
+                            </div>
+
+                            <div class="preview-grid">
+                                <div class="preview-card">
+                                    <div class="preview-label">تدفق عمل المحتوى</div>
+                                    <div class="preview-value">بدعم الذكاء الاصطناعي</div>
+                                </div>
+
+                                <div class="preview-card">
+                                    <div class="preview-label">النشر</div>
+                                    <div class="preview-value">مصرح به</div>
+                                </div>
+
+                                <div class="preview-card preview-card--wide">
+                                    <div class="preview-label">عمليات متعددة المنصات</div>
+
+                                    <div class="preview-bars">
+                                        <span style="height: 34%"></span>
+                                        <span style="height: 48%"></span>
+                                        <span style="height: 42%"></span>
+                                        <span style="height: 67%"></span>
+                                        <span style="height: 56%"></span>
+                                        <span style="height: 82%"></span>
+                                        <span style="height: 73%"></span>
+                                        <span style="height: 94%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--muted" id="platform">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">المنصة</span>
+
+                        <h2>
+                            مساحة عمل واحدة لعمليات المحتوى الرقمي الحديثة
+                        </h2>
+
+                        <p class="lead">
+                            يدعم VIS تدفقات عمل منظمة للمحتوى، بدءًا من الإعداد والإدارة
+                            وحتى النشر المصرح به وتحليل الأداء لاحقًا.
+                        </p>
+                    </div>
+
+                    <div class="grid grid--3">
+                        <article class="card">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5v-9Z"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                    />
+                                    <path
+                                        d="m9.5 9 5 3-5 3V9Z"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+
+                            <h3>إنشاء المحتوى</h3>
+
+                            <p class="text-muted">
+                                أنشئ محتوى رقميًا باستخدام عمليات مدعومة بالذكاء الاصطناعي
+                                مع الحفاظ على التحكم في المادة النهائية.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M6 6h12M6 12h12M6 18h8"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+                            </div>
+
+                            <h3>إدارة المحتوى</h3>
+
+                            <p class="text-muted">
+                                نظّم المواد الجاهزة للنشر والنصوص الخاصة بكل منصة
+                                والأصول الإعلامية ضمن تدفقات عمل متسقة.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M12 4v11m0 0 4-4m-4 4-4-4"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M5 18.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+                            </div>
+
+                            <h3>مصرح به publishing</h3>
+
+                            <p class="text-muted">
+                                انشر فقط إلى الحسابات التي ربطها أصحابها طوعًا
+                                عبر آليات التفويض الرسمية للمنصات.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="capabilities">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">الإمكانات الرئيسية</span>
+
+                        <h2>
+                            مصمم للمبدعين والشركات وإدارة الحسابات المصرح بها
+                        </h2>
+
+                        <p class="lead">
+                            يمكن استخدام VIS من قبل المبدعين الأفراد والمؤسسات والوكالات
+                            التي تعمل على حسابات العملاء بعد منح الأذونات المطلوبة.
+                        </p>
+                    </div>
+
+                    <div class="grid grid--2">
+                        <article class="card card--highlight">
+                            <h3>إدارة المحتوى عبر منصات متعددة</h3>
+
+                            <p class="text-muted">
+                                أعد المحتوى وأدره لعدة منصات تواصل اجتماعي مدعومة
+                                دون مشاركة كلمات المرور أو تجاوز قواعد المنصات.
+                            </p>
+
+                            <ul class="feature-list">
+                                <li>إعداد محتوى مخصص لكل منصة</li>
+                                <li>تدفقات نشر منظمة</li>
+                                <li>مصرح به account connections</li>
+                                <li>حالة التشغيل ونتائج النشر</li>
+                            </ul>
+                        </article>
+
+                        <article class="card">
+                            <h3>أتمتة مسؤولة</h3>
+
+                            <p class="text-muted">
+                                يعمل VIS على أتمتة عمليات المحتوى المتكررة مع الحفاظ على
+                                ملكية الحسابات وتفويض المستخدم ومتطلبات المنصات.
+                            </p>
+
+                            <ul class="feature-list">
+                                <li>لا يتم جمع كلمات مرور منصات التواصل</li>
+                                <li>لا وصول غير مصرح به إلى الحسابات</li>
+                                <li>لا ضمان للمشاهدات أو الوصول أو الدخل</li>
+                                <li>لا استخدام للرسائل المزعجة أو الأنشطة المضللة</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--muted" id="security">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">OAuth وحماية البيانات</span>
+
+                        <h2>
+                            تبقى الحسابات تحت سيطرة أصحابها
+                        </h2>
+
+                        <p class="lead">
+                            يستخدم VIS آليات OAuth الرسمية التي توفرها منصات التواصل المدعومة.
+                            ويقتصر الوصول على الأذونات التي وافق عليها صاحب الحساب.
+                        </p>
+                    </div>
+
+                    <div class="trust-strip">
+                        <div class="trust-item">
+                            <strong>لا يتم تخزين كلمات مرور شبكات التواصل</strong>
+                            <span>
+                                لا يطلب VIS كلمات مرور الحسابات المتصلة بخدمات التواصل الاجتماعي
+                                ولا يقوم بتخزينها.
+                            </span>
+                        </div>
+
+                        <div class="trust-item">
+                            <strong>وصول قائم على الأذونات</strong>
+                            <span>
+                                يتم تنفيذ الوظائف فقط ضمن نطاق الأذونات المعتمدة أثناء تفويض OAuth.
+                            </span>
+                        </div>
+
+                        <div class="trust-item">
+                            <strong>تخزين الرموز بشكل مشفر</strong>
+                            <span>
+                                يتم تخزين رموز OAuth التي يستخدمها VIS بشكل مشفر.
+                            </span>
+                        </div>
+
+                        <div class="trust-item">
+                            <strong>اتصالات قابلة للإلغاء</strong>
+                            <span>
+                                يمكن لأصحاب الحسابات إلغاء الوصول إلى المنصة أو طلب
+                                فصل الحساب وحذف البيانات المرتبطة به.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="notice" style="margin-top: 28px">
+                        <strong>مهم:</strong>
+                        لا يبيع VIS البيانات الشخصية ولا يضمن المشاهدات أو الوصول
+                        أو المتابعين أو الإيرادات أو موافقة المنصات.
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="cta-panel">
+                        <div class="contact-card">
+                            <div>
+                                <span class="eyebrow">تشغيل شفاف</span>
+
+                                <h2>
+                                    سياسات واضحة للمستخدمين والعملاء والحسابات المتصلة
+                                </h2>
+
+                                <p>
+                                    تعرّف على كيفية معالجة VIS لبيانات الحسابات المصرح بها
+                                    والشروط المطبقة على استخدام الخدمة.
+                                </p>
+                            </div>
+
+                            <div class="button-row">
+                                <a class="button button--primary" href="/ar/privacy/">
+                                    سياسة الخصوصية
+                                </a>
+
+                                <a class="button button--secondary" href="/ar/terms/">
+                                    شروط الخدمة
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--compact" id="contact">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">اتصل بنا</span>
+
+                        <h2>هل لديك أسئلة حول VIS أو بيانات الحسابات المتصلة؟</h2>
+
+                        <p class="lead">
+                            تواصل مع فريق VIS للاستفسارات المتعلقة بالخدمة أو الخصوصية
+                            أو طلبات فصل الحساب.
+                        </p>
+                    </div>
+
+                    <a class="button button--secondary" href="mailto:contact@vis.example">
+                        contact@vis.example
+                    </a>
+
+                    <p class="text-muted" style="margin-top: 16px">
+                        سيتم استبدال عنوان البريد الإلكتروني المؤقت هذا بعد تسجيل النطاق الرسمي لـ VIS.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <a class="brand" href="/ar/" aria-label="الصفحة الرئيسية لـ VIS">
+                        <svg
+                            class="brand-logo"
+                            viewBox="0 0 1280 360"
+                            role="img"
+                            aria-label="VIS — Viral Intelligence System"
+                            style="width: 215px; height: auto;"
+                        >
+                            <defs>
+                                <linearGradient id="visGoldFooter" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#F4D06A"/>
+                                    <stop offset="52%" stop-color="#D6A23A"/>
+                                    <stop offset="100%" stop-color="#A86D16"/>
+                                </linearGradient>
+                            </defs>
+
+                            <g transform="translate(62 38)">
+                                <path
+                                    d="M150 0 L205 55 L150 110 L95 55 Z"
+                                    fill="url(#visGoldFooter)"
+                                />
+                                <path
+                                    d="M0 88 H52 L150 248 L118 304 Z"
+                                    fill="url(#visGoldFooter)"
+                                />
+                                <path
+                                    d="M300 88 H248 L150 248 L182 304 Z"
+                                    fill="url(#visGoldFooter)"
+                                />
+                            </g>
+
+                            <g transform="translate(430 78)">
+                                <text
+                                    x="0"
+                                    y="126"
+                                    font-family="Arial, Helvetica, sans-serif"
+                                    font-size="154"
+                                    font-weight="700"
+                                    letter-spacing="10"
+                                    fill="#FFFFFF"
+                                >VIS</text>
+                                <text
+                                    x="4"
+                                    y="202"
+                                    font-family="Arial, Helvetica, sans-serif"
+                                    font-size="34"
+                                    font-weight="500"
+                                    letter-spacing="5.5"
+                                    fill="#C9D2DE"
+                                >VIRAL INTELLIGENCE SYSTEM</text>
+                            </g>
+                        </svg>
+                    </a>
+
+                        <p class="footer-copy" style="margin-top: 18px">
+                            VIS منصة مدعومة بالذكاء الاصطناعي لإنشاء المحتوى الرقمي وإدارته ونشره
+                            عبر اتصالات مصرح بها مع منصات التواصل الاجتماعي.
+                        </p>
+                    </div>
+
+                    <nav class="footer-links" aria-label="تنقل التذييل">
+                        <a href="/ar/">الرئيسية</a>
+                        <a href="/ar/privacy/">سياسة الخصوصية</a>
+                        <a href="/ar/terms/">شروط الخدمة</a>
+                        <a href="mailto:contact@vis.example">اتصل بنا</a>
+                    </nav>
+                </div>
+
+                <div class="footer-bottom">
+                    <span>© 2026 VIS — Viral Intelligence System.</span>
+                    <span>جميع الحقوق محفوظة.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

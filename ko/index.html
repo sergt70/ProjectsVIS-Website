@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VIS — AI 기반 콘텐츠 제작·관리·게시</title>
+
+    <meta
+        name="description"
+        content="VIS는 크리에이터, 기업 및 조직이 여러 소셜 미디어 플랫폼에서 디지털 콘텐츠를 제작, 관리 및 게시할 수 있도록 지원하는 AI 기반 플랫폼입니다."
+    >
+    <meta
+        name="keywords"
+        content="VIS, Viral Intelligence System, AI 플랫폼, 콘텐츠 제작, 소셜 미디어 게시, 콘텐츠 관리, OAuth"
+    >
+    <meta name="author" content="VIS — Viral Intelligence System">
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#07111F">
+    <meta name="color-scheme" content="dark">
+
+    <link rel="canonical" href="https://example.com/ko/">
+    <link rel="alternate" hreflang="en" href="https://example.com/ko/">
+    <link rel="alternate" hreflang="ru" href="https://example.com/ru/">
+    <link rel="alternate" hreflang="es" href="https://example.com/es/">
+    <link rel="alternate" hreflang="x-default" href="https://example.com/ko/">
+
+    <link
+        rel="icon"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon.ico"
+        sizes="any"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon-32x32.png"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon-16x16.png"
+    >
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/apple-touch-icon.png"
+    >
+    <link
+        rel="manifest"
+        href="../assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/site.webmanifest"
+    >
+
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ko_KR">
+    <meta property="og:site_name" content="VIS — Viral Intelligence System">
+    <meta property="og:title" content="VIS — AI 기반 콘텐츠 제작·관리·게시">
+    <meta
+        property="og:description"
+        content="VIS로 여러 소셜 미디어 플랫폼의 디지털 콘텐츠를 제작, 관리 및 게시하세요."
+    >
+    <meta property="og:url" content="https://example.com/ko/">
+    <meta
+        property="og:image"
+        content="https://example.com/assets/images/BrandAssets/VIS_Brand_Assets_v1.0/04_OpenGraph/og-image.png"
+    >
+    <meta
+        property="og:image:secure_url"
+        content="https://example.com/assets/images/BrandAssets/VIS_Brand_Assets_v1.0/04_OpenGraph/og-image.png"
+    >
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta
+        property="og:image:alt"
+        content="VIS — Viral Intelligence System"
+    >
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="VIS — AI 기반 콘텐츠 제작·관리·게시">
+    <meta
+        name="twitter:description"
+        content="VIS로 여러 소셜 미디어 플랫폼의 디지털 콘텐츠를 제작, 관리 및 게시하세요."
+    >
+    <meta
+        name="twitter:image"
+        content="https://example.com/assets/images/BrandAssets/VIS_Brand_Assets_v1.0/04_OpenGraph/twitter-card.png"
+    >
+    <meta
+        name="twitter:image:alt"
+        content="VIS — Viral Intelligence System"
+    >
+
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <script src="../assets/js/site.js" defer></script>
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "@id": "https://example.com/#organization",
+                "name": "VIS — Viral Intelligence System",
+                "alternateName": "VIS",
+                "url": "https://example.com/",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://example.com/assets/images/BrandAssets/VIS_Brand_Assets_v1.0/02_PNG/VIS-Mark-512.png",
+                    "width": 512,
+                    "height": 512
+                },
+                "description": "VIS는 승인된 소셜 미디어 연결을 통해 디지털 콘텐츠를 제작, 관리 및 게시하는 AI 기반 플랫폼입니다.",
+                "contactPoint": {
+                    "@type": "ContactPoint",
+                    "contactType": "customer support",
+                    "email": "contact@vis.example",
+                    "availableLanguage": [
+                        "한국어"
+                    ]
+                }
+            },
+            {
+                "@type": "WebSite",
+                "@id": "https://example.com/#website",
+                "url": "https://example.com/",
+                "name": "VIS — Viral Intelligence System",
+                "publisher": {
+                    "@id": "https://example.com/#organization"
+                },
+                "inLanguage": "ko"
+            },
+            {
+                "@type": "WebPage",
+                "@id": "https://example.com/ko/#webpage",
+                "url": "https://example.com/ko/",
+                "name": "VIS — AI 기반 콘텐츠 제작·관리·게시",
+                "description": "VIS는 크리에이터, 기업 및 조직이 여러 소셜 미디어 플랫폼에서 디지털 콘텐츠를 제작, 관리 및 게시할 수 있도록 지원하는 AI 기반 플랫폼입니다.",
+                "isPartOf": {
+                    "@id": "https://example.com/#website"
+                },
+                "about": {
+                    "@id": "https://example.com/#organization"
+                },
+                "inLanguage": "ko"
+            }
+        ]
+    }
+    </script>
+</head>
+
+<body>
+    <a class="skip-link" href="#main-content">본문으로 바로가기</a>
+
+    <div class="site-shell">
+        <header class="site-header">
+            <div class="container header-inner">
+                <a class="brand" href="/ko/" aria-label="VIS 홈">
+                        <svg
+                            class="brand-logo"
+                            viewBox="0 0 1280 360"
+                            role="img"
+                            aria-label="VIS — Viral Intelligence System"
+                            style="width: 215px; height: auto;"
+                        >
+                            <defs>
+                                <linearGradient id="visGoldHeader" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#F4D06A"/>
+                                    <stop offset="52%" stop-color="#D6A23A"/>
+                                    <stop offset="100%" stop-color="#A86D16"/>
+                                </linearGradient>
+                            </defs>
+
+                            <g transform="translate(62 38)">
+                                <path
+                                    d="M150 0 L205 55 L150 110 L95 55 Z"
+                                    fill="url(#visGoldHeader)"
+                                />
+                                <path
+                                    d="M0 88 H52 L150 248 L118 304 Z"
+                                    fill="url(#visGoldHeader)"
+                                />
+                                <path
+                                    d="M300 88 H248 L150 248 L182 304 Z"
+                                    fill="url(#visGoldHeader)"
+                                />
+                            </g>
+
+                            <g transform="translate(430 78)">
+                                <text
+                                    x="0"
+                                    y="126"
+                                    font-family="Arial, Helvetica, sans-serif"
+                                    font-size="154"
+                                    font-weight="700"
+                                    letter-spacing="10"
+                                    fill="#FFFFFF"
+                                >VIS</text>
+                                <text
+                                    x="4"
+                                    y="202"
+                                    font-family="Arial, Helvetica, sans-serif"
+                                    font-size="34"
+                                    font-weight="500"
+                                    letter-spacing="5.5"
+                                    fill="#C9D2DE"
+                                >VIRAL INTELLIGENCE SYSTEM</text>
+                            </g>
+                        </svg>
+                    </a>
+
+                <nav class="main-nav" aria-label="주요 탐색">
+                    <a href="#platform">플랫폼</a>
+                    <a href="#capabilities">기능</a>
+                    <a href="#security">보안</a>
+                    <a href="#contact">문의</a>
+                </nav>
+
+                <div class="header-actions">
+                    <div class="language-switcher">
+                        <label class="sr-only" for="language-select">언어</label>
+                        <select
+                            id="language-select"
+                            aria-label="언어 선택"
+                            onchange="window.location.href = this.value"
+                        >
+                            <option value="/en/">English</option>
+                            <option value="/ko/" selected>한국어</option>
+                            <option value="/ru/">Русский</option>
+                            <option value="/es/">Español</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main id="main-content">
+            <section class="hero">
+                <div class="container hero-grid">
+                    <div class="hero-copy">
+                        <span class="eyebrow reveal">VIS 공식 웹사이트</span>
+
+                        <h1 class="reveal reveal--delay-1">
+                            콘텐츠를 제작·관리·게시하세요
+                            <span class="gradient-text">AI 워크플로로 더 효율적으로</span>
+                        </h1>
+
+                        <p class="lead reveal reveal--delay-2">
+                            VIS는 크리에이터, 기업 및 조직이 여러 소셜 미디어 플랫폼에서
+                            디지털 콘텐츠를 제작, 관리 및 게시할 수 있도록 지원하는
+                            AI 기반 플랫폼입니다.
+                        </p>
+
+                        <div class="button-row hero-actions reveal reveal--delay-3">
+                            <a class="button button--primary" href="#platform">
+                                VIS 열기
+                            </a>
+
+                            <a class="button button--secondary" href="/ko/privacy/">
+                                개인정보 처리방침
+                            </a>
+                        </div>
+
+                        <div class="hero-note reveal reveal--delay-3">
+                            <span>공식 OAuth 연결</span>
+                            <span>승인된 계정만 사용</span>
+                            <span>토큰 암호화 저장</span>
+                        </div>
+                    </div>
+
+                    <div class="hero-visual reveal reveal--delay-2" aria-hidden="true">
+                        <div class="dashboard-preview">
+                            <div class="preview-topbar">
+                                <span class="preview-dot"></span>
+                                <span class="preview-dot"></span>
+                                <span class="preview-dot"></span>
+                            </div>
+
+                            <div class="preview-grid">
+                                <div class="preview-card">
+                                    <div class="preview-label">콘텐츠 워크플로</div>
+                                    <div class="preview-value">AI 지원</div>
+                                </div>
+
+                                <div class="preview-card">
+                                    <div class="preview-label">게시</div>
+                                    <div class="preview-value">승인됨</div>
+                                </div>
+
+                                <div class="preview-card preview-card--wide">
+                                    <div class="preview-label">멀티플랫폼 운영</div>
+
+                                    <div class="preview-bars">
+                                        <span style="height: 34%"></span>
+                                        <span style="height: 48%"></span>
+                                        <span style="height: 42%"></span>
+                                        <span style="height: 67%"></span>
+                                        <span style="height: 56%"></span>
+                                        <span style="height: 82%"></span>
+                                        <span style="height: 73%"></span>
+                                        <span style="height: 94%"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--muted" id="platform">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">플랫폼</span>
+
+                        <h2>
+                            현대적인 디지털 콘텐츠 운영을 위한 하나의 작업공간
+                        </h2>
+
+                        <p class="lead">
+                            VIS는 준비와 관리부터 승인된 게시, 이후 성과 분석까지
+                            구조화된 콘텐츠 워크플로를 지원합니다.
+                        </p>
+                    </div>
+
+                    <div class="grid grid--3">
+                        <article class="card">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M4 7.5A2.5 2.5 0 0 1 6.5 5h11A2.5 2.5 0 0 1 20 7.5v9a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 16.5v-9Z"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                    />
+                                    <path
+                                        d="m9.5 9 5 3-5 3V9Z"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </div>
+
+                            <h3>콘텐츠 제작</h3>
+
+                            <p class="text-muted">
+                                최종 결과물에 대한 통제권을 유지하면서 AI 지원 프로세스로
+                                디지털 콘텐츠를 제작할 수 있습니다.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M6 6h12M6 12h12M6 18h8"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+                            </div>
+
+                            <h3>콘텐츠 관리</h3>
+
+                            <p class="text-muted">
+                                게시 준비가 완료된 자료, 플랫폼별 텍스트 및 미디어 자산을
+                                일관된 워크플로로 정리합니다.
+                            </p>
+                        </article>
+
+                        <article class="card">
+                            <div class="card-icon" aria-hidden="true">
+                                <svg viewBox="0 0 24 24" fill="none">
+                                    <path
+                                        d="M12 4v11m0 0 4-4m-4 4-4-4"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M5 18.5A1.5 1.5 0 0 0 6.5 20h11a1.5 1.5 0 0 0 1.5-1.5"
+                                        stroke="currentColor"
+                                        stroke-width="1.8"
+                                        stroke-linecap="round"
+                                    />
+                                </svg>
+                            </div>
+
+                            <h3>승인됨 publishing</h3>
+
+                            <p class="text-muted">
+                                계정 소유자가 공식 인증 절차를 통해 직접 연결한
+                                계정에만 콘텐츠를 게시합니다.
+                            </p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section" id="capabilities">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">주요 기능</span>
+
+                        <h2>
+                            크리에이터, 기업 및 승인된 계정 관리를 위해 설계
+                        </h2>
+
+                        <p class="lead">
+                            VIS는 개인 크리에이터, 조직 및 필요한 권한을 부여받은
+                            고객 계정을 관리하는 에이전시에서 사용할 수 있습니다.
+                        </p>
+                    </div>
+
+                    <div class="grid grid--2">
+                        <article class="card card--highlight">
+                            <h3>멀티플랫폼 콘텐츠 운영</h3>
+
+                            <p class="text-muted">
+                                비밀번호를 공유하거나 플랫폼 규칙을 우회하지 않고
+                                여러 소셜 미디어 플랫폼용 콘텐츠를 준비하고 관리합니다.
+                            </p>
+
+                            <ul class="feature-list">
+                                <li>플랫폼별 콘텐츠 준비</li>
+                                <li>구조화된 게시 워크플로</li>
+                                <li>승인됨 account connections</li>
+                                <li>운영 상태 및 게시 결과</li>
+                            </ul>
+                        </article>
+
+                        <article class="card">
+                            <h3>책임 있는 자동화</h3>
+
+                            <p class="text-muted">
+                                VIS는 계정 소유권, 사용자 승인 및 각 플랫폼의 요구사항을
+                                유지하면서 반복적인 콘텐츠 작업을 자동화합니다.
+                            </p>
+
+                            <ul class="feature-list">
+                                <li>소셜 미디어 비밀번호를 수집하지 않음</li>
+                                <li>무단 계정 접근 없음</li>
+                                <li>조회수·도달률·수익을 보장하지 않음</li>
+                                <li>스팸 또는 기만적 활동에 사용하지 않음</li>
+                            </ul>
+                        </article>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--muted" id="security">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">OAuth 및 데이터 보호</span>
+
+                        <h2>
+                            계정은 소유자의 통제 아래 유지됩니다
+                        </h2>
+
+                        <p class="lead">
+                            VIS는 지원되는 소셜 플랫폼의 공식 OAuth 인증 메커니즘을 사용합니다.
+                            접근 권한은 계정 소유자가 승인한 범위로 제한됩니다.
+                        </p>
+                    </div>
+
+                    <div class="trust-strip">
+                        <div class="trust-item">
+                            <strong>소셜 미디어 비밀번호를 저장하지 않음</strong>
+                            <span>
+                                VIS는 연결된 소셜 미디어 계정의 비밀번호를 요청하거나
+                                저장하지 않습니다.
+                            </span>
+                        </div>
+
+                        <div class="trust-item">
+                            <strong>권한 기반 접근</strong>
+                            <span>
+                                기능은 OAuth 인증 과정에서 승인된 권한 범위 내에서만 실행됩니다.
+                            </span>
+                        </div>
+
+                        <div class="trust-item">
+                            <strong>토큰 암호화 저장</strong>
+                            <span>
+                                VIS에서 사용하는 OAuth 토큰은 암호화된 형태로 저장됩니다.
+                            </span>
+                        </div>
+
+                        <div class="trust-item">
+                            <strong>언제든 해제 가능한 연결</strong>
+                            <span>
+                                계정 소유자는 플랫폼 접근 권한을 취소하거나 연결 해제 및
+                                관련 데이터 삭제를 요청할 수 있습니다.
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="notice" style="margin-top: 28px">
+                        <strong>중요:</strong>
+                        VIS는 개인정보를 판매하지 않으며 조회수, 도달률, 팔로워,
+                        수익 또는 플랫폼 승인을 보장하지 않습니다.
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <div class="cta-panel">
+                        <div class="contact-card">
+                            <div>
+                                <span class="eyebrow">투명한 운영</span>
+
+                                <h2>
+                                    사용자, 고객 및 연결된 계정을 위한 명확한 정책
+                                </h2>
+
+                                <p>
+                                    VIS가 승인된 계정 데이터를 처리하는 방식과 서비스 이용 조건을
+                                    확인하세요.
+                                </p>
+                            </div>
+
+                            <div class="button-row">
+                                <a class="button button--primary" href="/ko/privacy/">
+                                    개인정보 처리방침
+                                </a>
+
+                                <a class="button button--secondary" href="/ko/terms/">
+                                    이용약관
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section section--compact" id="contact">
+                <div class="container">
+                    <div class="section-heading">
+                        <span class="eyebrow">문의</span>
+
+                        <h2>VIS 또는 연결된 계정 데이터에 대해 궁금한 점이 있나요?</h2>
+
+                        <p class="lead">
+                            서비스, 개인정보 보호 또는 계정 연결 해제에 관한 문의는
+                            VIS 팀으로 연락해 주세요.
+                        </p>
+                    </div>
+
+                    <a class="button button--secondary" href="mailto:contact@vis.example">
+                        contact@vis.example
+                    </a>
+
+                    <p class="text-muted" style="margin-top: 16px">
+                        이 임시 이메일 주소는 VIS 공식 도메인 등록 후 변경됩니다.
+                    </p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div>
+                        <a class="brand" href="/ko/" aria-label="VIS 홈">
+                        <svg
+                            class="brand-logo"
+                            viewBox="0 0 1280 360"
+                            role="img"
+                            aria-label="VIS — Viral Intelligence System"
+                            style="width: 215px; height: auto;"
+                        >
+                            <defs>
+                                <linearGradient id="visGoldFooter" x1="0" y1="0" x2="1" y2="1">
+                                    <stop offset="0%" stop-color="#F4D06A"/>
+                                    <stop offset="52%" stop-color="#D6A23A"/>
+                                    <stop offset="100%" stop-color="#A86D16"/>
+                                </linearGradient>
+                            </defs>
+
+                            <g transform="translate(62 38)">
+                                <path
+                                    d="M150 0 L205 55 L150 110 L95 55 Z"
+                                    fill="url(#visGoldFooter)"
+                                />
+                                <path
+                                    d="M0 88 H52 L150 248 L118 304 Z"
+                                    fill="url(#visGoldFooter)"
+                                />
+                                <path
+                                    d="M300 88 H248 L150 248 L182 304 Z"
+                                    fill="url(#visGoldFooter)"
+                                />
+                            </g>
+
+                            <g transform="translate(430 78)">
+                                <text
+                                    x="0"
+                                    y="126"
+                                    font-family="Arial, Helvetica, sans-serif"
+                                    font-size="154"
+                                    font-weight="700"
+                                    letter-spacing="10"
+                                    fill="#FFFFFF"
+                                >VIS</text>
+                                <text
+                                    x="4"
+                                    y="202"
+                                    font-family="Arial, Helvetica, sans-serif"
+                                    font-size="34"
+                                    font-weight="500"
+                                    letter-spacing="5.5"
+                                    fill="#C9D2DE"
+                                >VIRAL INTELLIGENCE SYSTEM</text>
+                            </g>
+                        </svg>
+                    </a>
+
+                        <p class="footer-copy" style="margin-top: 18px">
+                            VIS는 승인된 소셜 미디어 연결을 통해 디지털 콘텐츠를 제작,
+                            관리 및 게시하는 AI 기반 플랫폼입니다.
+                        </p>
+                    </div>
+
+                    <nav class="footer-links" aria-label="푸터 탐색">
+                        <a href="/ko/">홈</a>
+                        <a href="/ko/privacy/">개인정보 처리방침</a>
+                        <a href="/ko/terms/">이용약관</a>
+                        <a href="mailto:contact@vis.example">문의</a>
+                    </nav>
+                </div>
+
+                <div class="footer-bottom">
+                    <span>© 2026 VIS — Viral Intelligence System.</span>
+                    <span>모든 권리 보유.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

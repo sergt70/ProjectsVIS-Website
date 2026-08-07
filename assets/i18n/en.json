@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "language": "en",
+    "locale": "en_US",
+    "title": "VIS — Digital Content Platform",
+    "description": "VIS helps creators, businesses and organizations organize and publish digital content across supported social platforms.",
+    "keywords": "VIS, Viral Intelligence System, content platform, social media content, digital publishing, content management"
+  },
+  "navigation": {
+    "skipToContent": "Skip to main content",
+    "homeAriaLabel": "VIS home",
+    "primaryAriaLabel": "Primary navigation",
+    "languageAriaLabel": "Choose language",
+    "platform": "Platform",
+    "capabilities": "Capabilities",
+    "security": "Security",
+    "contact": "Contact"
+  },
+  "hero": {
+    "eyebrow": "Official VIS website",
+    "title": "Create, organize and publish",
+    "titleAccent": "digital content with confidence",
+    "description": "VIS helps creators, businesses and organizations organize digital content and publish it across supported social platforms from one clear workspace.",
+    "primaryButton": "Discover VIS",
+    "secondaryButton": "Privacy Policy",
+    "noteOAuth": "Secure account connections",
+    "noteAuthorized": "User-controlled access",
+    "noteEncrypted": "Clear privacy rules",
+    "previewWorkflowLabel": "Content",
+    "previewWorkflowValue": "Ready",
+    "previewPublishingLabel": "Publishing",
+    "previewPublishingValue": "Controlled",
+    "previewOperationsLabel": "Content overview"
+  },
+  "platform": {
+    "eyebrow": "The platform",
+    "title": "A simpler way to manage digital content",
+    "description": "VIS brings content creation, organization and publishing together in one clear environment so teams can spend less time on repetitive tasks and more time on the content itself.",
+    "creationTitle": "Create",
+    "creationText": "Prepare digital content efficiently while keeping creative decisions and final approval in your hands.",
+    "managementTitle": "Organize",
+    "managementText": "Keep content, supporting materials and publishing information organized in one consistent workspace.",
+    "publishingTitle": "Publish",
+    "publishingText": "Publish through supported account connections while maintaining control over where and when your content is used."
+  },
+  "capabilities": {
+    "eyebrow": "Capabilities",
+    "title": "Built around everyday content work",
+    "description": "VIS is designed for creators, companies and organizations that want a clear and practical way to manage content across supported platforms.",
+    "multiPlatformTitle": "One place for your content",
+    "multiPlatformText": "Keep preparation, organization and publishing together in one consistent experience.",
+    "multiPlatformItems": [
+      "Content preparation and organization",
+      "Support for selected social platforms",
+      "Clear publishing controls",
+      "Simple status visibility"
+    ],
+    "responsibleTitle": "Designed around user control",
+    "responsibleText": "VIS is built around account ownership, user choice and clear control of connected services.",
+    "responsibleItems": [
+      "You decide which accounts to connect",
+      "You remain in control of access",
+      "Connections can be revoked",
+      "Platform rules remain in force"
+    ]
+  },
+  "security": {
+    "eyebrow": "Account security and privacy",
+    "title": "Your accounts remain under your control",
+    "description": "VIS connects to supported third-party services only with the account owner's authorization. You choose what to connect and can revoke access when needed.",
+    "items": [
+      {
+        "title": "No social media passwords requested",
+        "text": "VIS does not ask you to provide the password for a connected social media account."
+      },
+      {
+        "title": "Authorized connections only",
+        "text": "VIS works only with accounts that their owners have chosen to connect."
+      },
+      {
+        "title": "Owner-controlled access",
+        "text": "Account owners remain in control of their connected services."
+      },
+      {
+        "title": "Clear policies",
+        "text": "Privacy and service terms explain how VIS handles connected accounts and related data."
+      }
+    ],
+    "noticeLabel": "Important:",
+    "noticeText": "VIS does not sell personal data and does not guarantee views, reach, followers, revenue or approval by third-party platforms."
+  },
+  "policies": {
+    "eyebrow": "Transparency",
+    "title": "Clear information for every VIS user",
+    "description": "Review the VIS Privacy Policy and Terms of Service to understand the rules that apply to the public service.",
+    "privacyButton": "Privacy Policy",
+    "termsButton": "Terms of Service"
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Questions about VIS?",
+    "description": "Contact the VIS team for service, privacy or account-related questions.",
+    "email": "contact@vis.example",
+    "temporaryNotice": "This temporary email address will be replaced after the official VIS domain is registered."
+  },
+  "footer": {
+    "description": "VIS helps creators, businesses and organizations organize and publish digital content across supported social platforms.",
+    "home": "Home",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "copyright": "© 2026 VIS — Viral Intelligence System.",
+    "rights": "All rights reserved."
+  }
+}

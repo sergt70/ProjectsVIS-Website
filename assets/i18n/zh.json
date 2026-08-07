@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "language": "zh",
+    "locale": "zh_CN",
+    "title": "VIS — AI 驱动的内容创作、管理与发布",
+    "description": "VIS 是一个由人工智能驱动的平台，帮助创作者、企业和组织在多个社交媒体平台上创建、管理和发布数字内容。",
+    "keywords": "VIS, Viral Intelligence System, AI平台, 内容创作, 社交媒体, 内容管理, OAuth"
+  },
+  "navigation": {
+    "skipToContent": "跳至主要内容",
+    "homeAriaLabel": "VIS 首页",
+    "primaryAriaLabel": "主导航",
+    "languageAriaLabel": "选择语言",
+    "platform": "平台",
+    "capabilities": "功能",
+    "security": "安全",
+    "contact": "联系"
+  },
+  "hero": {
+    "eyebrow": "VIS 官方网站",
+    "title": "创建、管理并发布内容",
+    "titleAccent": "借助 AI 自动化工作流",
+    "description": "VIS 是一个由人工智能驱动的平台，帮助创作者、企业和组织在多个社交媒体平台上创建、管理和发布数字内容。",
+    "primaryButton": "打开 VIS",
+    "secondaryButton": "隐私政策",
+    "noteOAuth": "官方 OAuth 连接",
+    "noteAuthorized": "仅限已授权账户",
+    "noteEncrypted": "令牌加密存储",
+    "previewWorkflowLabel": "内容工作流",
+    "previewWorkflowValue": "AI 辅助",
+    "previewPublishingLabel": "发布",
+    "previewPublishingValue": "已授权",
+    "previewOperationsLabel": "多平台运营"
+  },
+  "platform": {
+    "eyebrow": "平台",
+    "title": "一个工作空间，统一管理现代数字内容运营",
+    "description": "VIS 支持结构化内容工作流，从准备与管理到已授权发布，再到后续效果分析。",
+    "creationTitle": "内容创作",
+    "creationText": "使用 AI 辅助流程创建数字内容，同时保持对最终成果的控制。",
+    "managementTitle": "内容管理",
+    "managementText": "在统一工作流中整理待发布素材、平台专用文案和媒体资源。",
+    "publishingTitle": "授权发布",
+    "publishingText": "仅向账户所有者通过官方授权机制主动连接的账户发布内容。"
+  },
+  "capabilities": {
+    "eyebrow": "核心功能",
+    "title": "面向创作者、企业和授权账户管理场景",
+    "description": "VIS 可供个人创作者、组织以及在获得必要权限后管理客户账户的机构使用。",
+    "multiPlatformTitle": "多平台内容运营",
+    "multiPlatformText": "无需共享密码或绕过平台规则，即可为多个受支持的社交媒体平台准备和管理内容。",
+    "multiPlatformItems": [
+      "按平台准备内容",
+      "结构化发布工作流",
+      "已授权账户连接",
+      "运行状态与发布结果"
+    ],
+    "responsibleTitle": "负责任的自动化",
+    "responsibleText": "VIS 在尊重账户所有权、用户授权和平台要求的前提下，自动执行重复性内容操作。",
+    "responsibleItems": [
+      "不收集社交媒体密码",
+      "不进行未经授权的账户访问",
+      "不保证播放量、覆盖率或收入",
+      "不得用于垃圾信息或欺骗性活动"
+    ]
+  },
+  "security": {
+    "eyebrow": "OAuth 与数据保护",
+    "title": "账户始终由其所有者控制",
+    "description": "VIS 使用受支持社交平台提供的官方 OAuth 授权机制，访问权限仅限于账户所有者批准的范围。",
+    "items": [
+      {
+        "title": "不存储社交媒体密码",
+        "text": "VIS 不会请求或存储已连接社交媒体账户的密码。"
+      },
+      {
+        "title": "基于权限的访问",
+        "text": "所有功能仅在 OAuth 授权过程中批准的权限范围内执行。"
+      },
+      {
+        "title": "加密令牌",
+        "text": "VIS 使用的 OAuth 令牌以加密形式存储。"
+      },
+      {
+        "title": "可随时撤销的连接",
+        "text": "账户所有者可以撤销平台访问权限，或请求断开连接并删除相关数据。"
+      }
+    ],
+    "noticeLabel": "重要：",
+    "noticeText": "VIS 不出售个人数据，也不保证播放量、覆盖率、关注者、收入或平台批准。"
+  },
+  "policies": {
+    "eyebrow": "透明运营",
+    "title": "为用户、客户和已连接账户提供清晰规则",
+    "description": "了解 VIS 如何处理已授权账户数据，以及使用本服务所适用的条件。",
+    "privacyButton": "隐私政策",
+    "termsButton": "服务条款"
+  },
+  "contact": {
+    "eyebrow": "联系",
+    "title": "对 VIS 或已连接账户的数据有疑问？",
+    "description": "如有服务、隐私或账户断开连接相关问题，请联系 VIS 团队。",
+    "email": "contact@vis.example",
+    "temporaryNotice": "该临时电子邮箱将在 VIS 官方域名注册后更换。"
+  },
+  "footer": {
+    "description": "VIS 是一个通过已授权社交媒体连接来创建、管理和发布数字内容的 AI 平台。",
+    "home": "首页",
+    "privacy": "隐私",
+    "terms": "服务条款",
+    "contact": "联系",
+    "copyright": "© 2026 VIS — Viral Intelligence System.",
+    "rights": "保留所有权利。"
+  }
+}

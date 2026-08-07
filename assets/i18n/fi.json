@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "language": "fi",
+    "locale": "fi_FI",
+    "title": "VIS — tekoälypohjainen sisällöntuotanto ja julkaiseminen",
+    "description": "VIS on tekoälypohjainen alusta, joka auttaa sisällöntuottajia, yrityksiä ja organisaatioita luomaan, hallitsemaan ja julkaisemaan digitaalista sisältöä useissa sosiaalisen median kanavissa.",
+    "keywords": "VIS, Viral Intelligence System, tekoälyalusta, sisällöntuotanto, sosiaalinen media, sisällönhallinta, OAuth"
+  },
+  "navigation": {
+    "skipToContent": "Siirry pääsisältöön",
+    "homeAriaLabel": "VIS-etusivu",
+    "primaryAriaLabel": "Päänavigointi",
+    "languageAriaLabel": "Valitse kieli",
+    "platform": "Alusta",
+    "capabilities": "Ominaisuudet",
+    "security": "Tietoturva",
+    "contact": "Yhteystiedot"
+  },
+  "hero": {
+    "eyebrow": "VISin virallinen verkkosivusto",
+    "title": "Luo, hallitse ja julkaise sisältöä",
+    "titleAccent": "tekoälyautomaation avulla",
+    "description": "VIS on tekoälypohjainen alusta, joka auttaa sisällöntuottajia, yrityksiä ja organisaatioita luomaan, hallitsemaan ja julkaisemaan digitaalista sisältöä useissa sosiaalisen median kanavissa.",
+    "primaryButton": "Avaa VIS",
+    "secondaryButton": "Tietosuojakäytäntö",
+    "noteOAuth": "Viralliset OAuth-yhteydet",
+    "noteAuthorized": "Vain valtuutetut tilit",
+    "noteEncrypted": "Salattu tunnisteiden tallennus",
+    "previewWorkflowLabel": "Sisällön työnkulku",
+    "previewWorkflowValue": "Tekoälyavusteinen",
+    "previewPublishingLabel": "Julkaiseminen",
+    "previewPublishingValue": "Valtuutettu",
+    "previewOperationsLabel": "Monialustainen toiminta"
+  },
+  "platform": {
+    "eyebrow": "Alusta",
+    "title": "Yksi työtila nykyaikaisiin digitaalisen sisällön prosesseihin",
+    "description": "VIS tukee jäsenneltyjä työnkulkuja valmistelusta ja hallinnasta valtuutettuun julkaisemiseen ja tulosten analysointiin.",
+    "creationTitle": "Sisällöntuotanto",
+    "creationText": "Luo digitaalista sisältöä tekoälyavusteisilla prosesseilla säilyttäen täysi hallinta.",
+    "managementTitle": "Sisällönhallinta",
+    "managementText": "Järjestä julkaisovalmiit materiaalit, alustakohtaiset tekstit ja mediaresurssit yhtenäisessä työnkulussa.",
+    "publishingTitle": "Valtuutettu julkaiseminen",
+    "publishingText": "Julkaise vain tileille, jotka niiden omistajat ovat yhdistäneet virallisten valtuutusmekanismien kautta."
+  },
+  "capabilities": {
+    "eyebrow": "Keskeiset ominaisuudet",
+    "title": "Sisällöntuottajille, yrityksille ja valtuutettuun tilien hallintaan",
+    "description": "VIS soveltuu sisällöntuottajille, organisaatioille ja toimistoille, joilla on tarvittavat oikeudet.",
+    "multiPlatformTitle": "Monialustainen sisällönhallinta",
+    "multiPlatformText": "Valmistele ja hallitse sisältöä useille alustoille jakamatta salasanoja.",
+    "multiPlatformItems": [
+      "Alustakohtainen sisällön valmistelu",
+      "Jäsennellyt julkaisutyönkulut",
+      "Valtuutetut tililiitännät",
+      "Tilan ja tulosten seuranta"
+    ],
+    "responsibleTitle": "Vastuullinen automaatio",
+    "responsibleText": "VIS automatisoi toistuvia tehtäviä kunnioittaen omistajuutta, käyttöoikeuksia ja alustojen vaatimuksia.",
+    "responsibleItems": [
+      "Ei salasanojen keräämistä",
+      "Ei luvatonta pääsyä",
+      "Ei lupauksia katselukerroista tai tuloista",
+      "Ei käyttöä roskapostiin tai harhaanjohtavaan toimintaan"
+    ]
+  },
+  "security": {
+    "eyebrow": "OAuth ja tietosuoja",
+    "title": "Tilit pysyvät omistajiensa hallinnassa",
+    "description": "VIS käyttää virallisia OAuth-mekanismeja. Käyttöoikeudet rajoittuvat hyväksyttyihin valtuuksiin.",
+    "items": [
+      {
+        "title": "Ei salasanojen tallennusta",
+        "text": "VIS ei pyydä eikä tallenna salasanoja."
+      },
+      {
+        "title": "Oikeuksiin perustuva pääsy",
+        "text": "Toiminnot suoritetaan vain hyväksyttyjen OAuth-oikeuksien puitteissa."
+      },
+      {
+        "title": "Salatut tunnisteet",
+        "text": "OAuth-tunnisteet tallennetaan salattuina."
+      },
+      {
+        "title": "Peruutettavat yhteydet",
+        "text": "Tilinomistaja voi milloin tahansa peruuttaa käyttöoikeuden tai pyytää tietojen poistamista."
+      }
+    ],
+    "noticeLabel": "Tärkeää:",
+    "noticeText": "VIS ei myy henkilötietoja eikä takaa katselukertoja, näkyvyyttä, seuraajia tai tuloja."
+  },
+  "policies": {
+    "eyebrow": "Läpinäkyvyys",
+    "title": "Selkeät säännöt käyttäjille, asiakkaille ja yhdistetyille tileille",
+    "description": "Tutustu siihen, miten VIS käsittelee valtuutettujen tilien tietoja.",
+    "privacyButton": "Tietosuojakäytäntö",
+    "termsButton": "Käyttöehdot"
+  },
+  "contact": {
+    "eyebrow": "Yhteystiedot",
+    "title": "Kysymyksiä VISistä tai yhdistetyistä tileistä?",
+    "description": "Ota yhteyttä VIS-tiimiin palvelua, tietosuojaa tai tilin poistamista koskevissa asioissa.",
+    "email": "contact@vis.example",
+    "temporaryNotice": "Tämä väliaikainen sähköpostiosoite korvataan, kun VISin virallinen verkkotunnus rekisteröidään."
+  },
+  "footer": {
+    "description": "VIS on tekoälypohjainen alusta digitaalisen sisällön luomiseen, hallintaan ja julkaisemiseen valtuutettujen sosiaalisen median yhteyksien kautta.",
+    "home": "Etusivu",
+    "privacy": "Tietosuoja",
+    "terms": "Käyttöehdot",
+    "contact": "Yhteystiedot",
+    "copyright": "© 2026 VIS — Viral Intelligence System.",
+    "rights": "Kaikki oikeudet pidätetään."
+  }
+}

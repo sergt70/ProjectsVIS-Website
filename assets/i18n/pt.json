@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "language": "pt",
+    "locale": "pt_PT",
+    "title": "VIS — criação e publicação de conteúdos com IA",
+    "description": "A VIS é uma plataforma baseada em inteligência artificial que ajuda criadores, empresas e organizações a criar, gerir e publicar conteúdos digitais em várias redes sociais.",
+    "keywords": "VIS, Viral Intelligence System, plataforma de IA, criação de conteúdos, publicação em redes sociais, gestão de conteúdos, OAuth"
+  },
+  "navigation": {
+    "skipToContent": "Ir para o conteúdo principal",
+    "homeAriaLabel": "Página inicial da VIS",
+    "primaryAriaLabel": "Navegação principal",
+    "languageAriaLabel": "Selecionar idioma",
+    "platform": "Plataforma",
+    "capabilities": "Funcionalidades",
+    "security": "Segurança",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "eyebrow": "Site oficial da VIS",
+    "title": "Crie, gira e publique conteúdos",
+    "titleAccent": "com automatização por IA",
+    "description": "A VIS é uma plataforma baseada em inteligência artificial que ajuda criadores, empresas e organizações a criar, gerir e publicar conteúdos digitais em várias redes sociais.",
+    "primaryButton": "Aceder à VIS",
+    "secondaryButton": "Política de privacidade",
+    "noteOAuth": "Ligações OAuth oficiais",
+    "noteAuthorized": "Apenas contas autorizadas",
+    "noteEncrypted": "Armazenamento encriptado de tokens",
+    "previewWorkflowLabel": "Fluxo de trabalho de conteúdos",
+    "previewWorkflowValue": "Assistido por IA",
+    "previewPublishingLabel": "Publicação",
+    "previewPublishingValue": "Autorizada",
+    "previewOperationsLabel": "Operações multiplataforma"
+  },
+  "platform": {
+    "eyebrow": "A plataforma",
+    "title": "Um único espaço de trabalho para operações modernas de conteúdos digitais",
+    "description": "A VIS suporta fluxos de trabalho estruturados, desde a preparação e gestão até à publicação autorizada e à análise posterior do desempenho.",
+    "creationTitle": "Criação de conteúdos",
+    "creationText": "Prepare conteúdos digitais através de processos assistidos por IA, mantendo o controlo sobre o material final.",
+    "managementTitle": "Gestão de conteúdos",
+    "managementText": "Organize materiais prontos para publicação, textos específicos para cada plataforma e recursos multimédia em fluxos de trabalho consistentes.",
+    "publishingTitle": "Publicação autorizada",
+    "publishingText": "Publique apenas em contas que os respetivos proprietários tenham ligado voluntariamente através dos mecanismos oficiais de autorização de cada plataforma."
+  },
+  "capabilities": {
+    "eyebrow": "Principais funcionalidades",
+    "title": "Concebida para criadores, empresas e gestão autorizada de contas",
+    "description": "A VIS pode ser utilizada por criadores independentes, organizações e agências que trabalhem com contas de clientes com as permissões necessárias.",
+    "multiPlatformTitle": "Operações de conteúdos multiplataforma",
+    "multiPlatformText": "Prepare e gira conteúdos para várias plataformas sociais compatíveis sem partilhar palavras-passe nem contornar as respetivas regras.",
+    "multiPlatformItems": [
+      "Preparação específica para cada plataforma",
+      "Fluxos de publicação estruturados",
+      "Ligações de contas autorizadas",
+      "Estado operacional e resultados de publicação"
+    ],
+    "responsibleTitle": "Automatização responsável",
+    "responsibleText": "A VIS automatiza operações repetitivas de conteúdos, respeitando a propriedade das contas, a autorização do utilizador e os requisitos de cada plataforma.",
+    "responsibleItems": [
+      "Sem recolha de palavras-passe de redes sociais",
+      "Sem acesso não autorizado a contas",
+      "Sem garantias de visualizações, alcance ou receitas",
+      "Sem utilização para spam ou atividades enganosas"
+    ]
+  },
+  "security": {
+    "eyebrow": "OAuth e proteção de dados",
+    "title": "As contas permanecem sob o controlo dos respetivos proprietários",
+    "description": "A VIS utiliza os mecanismos oficiais de autorização OAuth das plataformas sociais compatíveis. O acesso fica limitado às permissões aprovadas pelo proprietário da conta.",
+    "items": [
+      {
+        "title": "Sem armazenamento de palavras-passe sociais",
+        "text": "A VIS não solicita nem armazena palavras-passe de contas ligadas a plataformas sociais."
+      },
+      {
+        "title": "Acesso baseado em permissões",
+        "text": "As funções são executadas apenas dentro das permissões aprovadas pelo proprietário da conta durante a autorização OAuth."
+      },
+      {
+        "title": "Armazenamento encriptado de tokens",
+        "text": "Os tokens OAuth utilizados pela VIS são armazenados de forma encriptada."
+      },
+      {
+        "title": "Ligações revogáveis",
+        "text": "O proprietário da conta pode revogar o acesso da plataforma ou solicitar a desvinculação da conta e a eliminação dos dados relacionados."
+      }
+    ],
+    "noticeLabel": "Importante:",
+    "noticeText": "A VIS não vende dados pessoais nem promete visualizações, alcance, seguidores, receitas ou aprovação por parte das plataformas."
+  },
+  "policies": {
+    "eyebrow": "Operação transparente",
+    "title": "Políticas claras para utilizadores, clientes e contas ligadas",
+    "description": "Consulte como a VIS trata os dados de contas autorizadas e quais as condições aplicáveis à utilização do serviço.",
+    "privacyButton": "Política de privacidade",
+    "termsButton": "Termos de serviço"
+  },
+  "contact": {
+    "eyebrow": "Contacto",
+    "title": "Tem dúvidas sobre a VIS ou os dados de contas ligadas?",
+    "description": "Contacte a equipa da VIS para questões relacionadas com o serviço, a privacidade ou a desvinculação de uma conta.",
+    "email": "contact@vis.example",
+    "temporaryNotice": "Este endereço de correio eletrónico temporário será substituído quando o domínio oficial da VIS for registado."
+  },
+  "footer": {
+    "description": "A VIS é uma plataforma baseada em IA para criar, gerir e publicar conteúdos digitais através de ligações autorizadas a redes sociais.",
+    "home": "Início",
+    "privacy": "Política de privacidade",
+    "terms": "Termos de serviço",
+    "contact": "Contacto",
+    "copyright": "© 2026 VIS — Viral Intelligence System.",
+    "rights": "Todos os direitos reservados."
+  }
+}

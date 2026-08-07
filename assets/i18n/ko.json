@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "language": "ko",
+    "locale": "ko_KR",
+    "title": "VIS — AI 기반 콘텐츠 제작·관리·게시",
+    "description": "VIS는 크리에이터, 기업 및 조직이 여러 소셜 미디어 플랫폼에서 디지털 콘텐츠를 제작, 관리 및 게시할 수 있도록 지원하는 AI 기반 플랫폼입니다.",
+    "keywords": "VIS, Viral Intelligence System, AI 플랫폼, 콘텐츠 제작, 소셜 미디어, 콘텐츠 관리, OAuth"
+  },
+  "navigation": {
+    "skipToContent": "본문으로 바로가기",
+    "homeAriaLabel": "VIS 홈",
+    "primaryAriaLabel": "주요 탐색",
+    "languageAriaLabel": "언어 선택",
+    "platform": "플랫폼",
+    "capabilities": "기능",
+    "security": "보안",
+    "contact": "문의"
+  },
+  "hero": {
+    "eyebrow": "VIS 공식 웹사이트",
+    "title": "콘텐츠를 제작·관리·게시하세요",
+    "titleAccent": "AI 워크플로로 더 효율적으로",
+    "description": "VIS는 크리에이터, 기업 및 조직이 여러 소셜 미디어 플랫폼에서 디지털 콘텐츠를 제작, 관리 및 게시할 수 있도록 지원하는 AI 기반 플랫폼입니다.",
+    "primaryButton": "VIS 열기",
+    "secondaryButton": "개인정보 처리방침",
+    "noteOAuth": "공식 OAuth 연결",
+    "noteAuthorized": "승인된 계정만 사용",
+    "noteEncrypted": "토큰 암호화 저장",
+    "previewWorkflowLabel": "콘텐츠 워크플로",
+    "previewWorkflowValue": "AI 지원",
+    "previewPublishingLabel": "게시",
+    "previewPublishingValue": "승인됨",
+    "previewOperationsLabel": "멀티플랫폼 운영"
+  },
+  "platform": {
+    "eyebrow": "플랫폼",
+    "title": "현대적인 디지털 콘텐츠 운영을 위한 하나의 작업공간",
+    "description": "VIS는 준비와 관리부터 승인된 게시, 이후 성과 분석까지 구조화된 콘텐츠 워크플로를 지원합니다.",
+    "creationTitle": "콘텐츠 제작",
+    "creationText": "최종 결과물에 대한 통제권을 유지하면서 AI 지원 프로세스로 디지털 콘텐츠를 제작할 수 있습니다.",
+    "managementTitle": "콘텐츠 관리",
+    "managementText": "게시 준비가 완료된 자료, 플랫폼별 텍스트 및 미디어 자산을 일관된 워크플로로 정리합니다.",
+    "publishingTitle": "승인된 게시",
+    "publishingText": "계정 소유자가 공식 인증 절차를 통해 직접 연결한 계정에만 콘텐츠를 게시합니다."
+  },
+  "capabilities": {
+    "eyebrow": "주요 기능",
+    "title": "크리에이터, 기업 및 승인된 계정 관리를 위해 설계",
+    "description": "VIS는 개인 크리에이터, 조직 및 필요한 권한을 부여받은 고객 계정을 관리하는 에이전시에서 사용할 수 있습니다.",
+    "multiPlatformTitle": "멀티플랫폼 콘텐츠 운영",
+    "multiPlatformText": "비밀번호를 공유하거나 플랫폼 규칙을 우회하지 않고 여러 소셜 미디어 플랫폼용 콘텐츠를 준비하고 관리합니다.",
+    "multiPlatformItems": [
+      "플랫폼별 콘텐츠 준비",
+      "구조화된 게시 워크플로",
+      "승인된 계정 연결",
+      "운영 상태 및 게시 결과"
+    ],
+    "responsibleTitle": "책임 있는 자동화",
+    "responsibleText": "VIS는 계정 소유권, 사용자 승인 및 각 플랫폼의 요구사항을 유지하면서 반복적인 콘텐츠 작업을 자동화합니다.",
+    "responsibleItems": [
+      "소셜 미디어 비밀번호를 수집하지 않음",
+      "무단 계정 접근 없음",
+      "조회수·도달률·수익을 보장하지 않음",
+      "스팸 또는 기만적 활동에 사용하지 않음"
+    ]
+  },
+  "security": {
+    "eyebrow": "OAuth 및 데이터 보호",
+    "title": "계정은 소유자의 통제 아래 유지됩니다",
+    "description": "VIS는 지원되는 소셜 플랫폼의 공식 OAuth 인증 메커니즘을 사용하며, 접근 권한은 계정 소유자가 승인한 범위로 제한됩니다.",
+    "items": [
+      {
+        "title": "소셜 미디어 비밀번호를 저장하지 않음",
+        "text": "VIS는 연결된 소셜 미디어 계정의 비밀번호를 요청하거나 저장하지 않습니다."
+      },
+      {
+        "title": "권한 기반 접근",
+        "text": "기능은 OAuth 인증 과정에서 승인된 권한 범위 내에서만 실행됩니다."
+      },
+      {
+        "title": "암호화된 토큰",
+        "text": "VIS에서 사용하는 OAuth 토큰은 암호화된 형태로 저장됩니다."
+      },
+      {
+        "title": "언제든 해제 가능한 연결",
+        "text": "계정 소유자는 플랫폼 접근 권한을 취소하거나 연결 해제 및 관련 데이터 삭제를 요청할 수 있습니다."
+      }
+    ],
+    "noticeLabel": "중요:",
+    "noticeText": "VIS는 개인정보를 판매하지 않으며 조회수, 도달률, 팔로워, 수익 또는 플랫폼 승인을 보장하지 않습니다."
+  },
+  "policies": {
+    "eyebrow": "투명한 운영",
+    "title": "사용자, 고객 및 연결된 계정을 위한 명확한 정책",
+    "description": "VIS가 승인된 계정 데이터를 처리하는 방식과 서비스 이용 조건을 확인하세요.",
+    "privacyButton": "개인정보 처리방침",
+    "termsButton": "이용약관"
+  },
+  "contact": {
+    "eyebrow": "문의",
+    "title": "VIS 또는 연결된 계정 데이터에 대해 궁금한 점이 있나요?",
+    "description": "서비스, 개인정보 보호 또는 계정 연결 해제에 관한 문의는 VIS 팀으로 연락해 주세요.",
+    "email": "contact@vis.example",
+    "temporaryNotice": "이 임시 이메일 주소는 VIS 공식 도메인 등록 후 변경됩니다."
+  },
+  "footer": {
+    "description": "VIS는 승인된 소셜 미디어 연결을 통해 디지털 콘텐츠를 제작, 관리 및 게시하는 AI 기반 플랫폼입니다.",
+    "home": "홈",
+    "privacy": "개인정보 보호",
+    "terms": "이용약관",
+    "contact": "문의",
+    "copyright": "© 2026 VIS — Viral Intelligence System.",
+    "rights": "모든 권리 보유."
+  }
+}

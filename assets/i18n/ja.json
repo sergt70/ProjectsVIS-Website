@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "language": "ja",
+    "locale": "ja_JP",
+    "title": "VIS — AIによるコンテンツ作成・管理・公開",
+    "description": "VISは、クリエイター、企業、組織によるデジタルコンテンツの作成、管理、複数のソーシャルメディアへの公開を支援するAIプラットフォームです。",
+    "keywords": "VIS, Viral Intelligence System, AIプラットフォーム, コンテンツ作成, ソーシャルメディア, コンテンツ管理, OAuth"
+  },
+  "navigation": {
+    "skipToContent": "メインコンテンツへ移動",
+    "homeAriaLabel": "VISホーム",
+    "primaryAriaLabel": "メインナビゲーション",
+    "languageAriaLabel": "言語を選択",
+    "platform": "プラットフォーム",
+    "capabilities": "機能",
+    "security": "セキュリティ",
+    "contact": "お問い合わせ"
+  },
+  "hero": {
+    "eyebrow": "VIS公式サイト",
+    "title": "コンテンツを作成・管理・公開",
+    "titleAccent": "AIワークフローで効率化",
+    "description": "VISは、クリエイター、企業、組織によるデジタルコンテンツの作成、管理、複数のソーシャルメディアへの公開を支援するAIプラットフォームです。",
+    "primaryButton": "VISを開く",
+    "secondaryButton": "プライバシーポリシー",
+    "noteOAuth": "公式OAuth接続",
+    "noteAuthorized": "認可済みアカウントのみ",
+    "noteEncrypted": "トークンの暗号化保存",
+    "previewWorkflowLabel": "コンテンツワークフロー",
+    "previewWorkflowValue": "AI支援",
+    "previewPublishingLabel": "公開",
+    "previewPublishingValue": "認可済み",
+    "previewOperationsLabel": "マルチプラットフォーム運用"
+  },
+  "platform": {
+    "eyebrow": "プラットフォーム",
+    "title": "デジタルコンテンツ運用を一元化",
+    "description": "VISは、準備・管理から認可された公開、結果分析までの構造化されたワークフローを提供します。",
+    "creationTitle": "コンテンツ作成",
+    "creationText": "AI支援プロセスでコンテンツを作成しながら、最終成果物を管理できます。",
+    "managementTitle": "コンテンツ管理",
+    "managementText": "公開準備済みの素材、プラットフォーム別テキスト、メディア資産を一元管理します。",
+    "publishingTitle": "認可された公開",
+    "publishingText": "公式認可を通じて接続されたアカウントにのみ公開します。"
+  },
+  "capabilities": {
+    "eyebrow": "主な機能",
+    "title": "クリエイター、企業、認可済みアカウント管理向け",
+    "description": "VISは個人、企業、代理店が必要な権限の範囲で利用できます。",
+    "multiPlatformTitle": "マルチプラットフォーム運用",
+    "multiPlatformText": "パスワードを共有せず複数のソーシャルメディア向けコンテンツを管理します。",
+    "multiPlatformItems": [
+      "プラットフォーム別コンテンツ準備",
+      "構造化された公開ワークフロー",
+      "認可済みアカウント接続",
+      "公開結果の管理"
+    ],
+    "responsibleTitle": "責任ある自動化",
+    "responsibleText": "VISは所有権・認可・各プラットフォームの要件を尊重しながら自動化します。",
+    "responsibleItems": [
+      "パスワードを収集しません",
+      "無断アクセスを行いません",
+      "再生数や収益を保証しません",
+      "スパム目的では利用しません"
+    ]
+  },
+  "security": {
+    "eyebrow": "OAuthとデータ保護",
+    "title": "アカウントは所有者が管理",
+    "description": "VISは公式OAuthを利用し、承認された権限のみ使用します。",
+    "items": [
+      {
+        "title": "パスワードを保存しません",
+        "text": "VISはパスワードを要求・保存しません。"
+      },
+      {
+        "title": "権限ベースのアクセス",
+        "text": "OAuthで承認された範囲のみ実行します。"
+      },
+      {
+        "title": "暗号化されたトークン",
+        "text": "OAuthトークンは暗号化して保存します。"
+      },
+      {
+        "title": "接続はいつでも解除可能",
+        "text": "所有者はアクセス取消しやデータ削除を要求できます。"
+      }
+    ],
+    "noticeLabel": "重要:",
+    "noticeText": "VISは個人データを販売せず、再生数・収益・フォロワーを保証しません。"
+  },
+  "policies": {
+    "eyebrow": "透明性",
+    "title": "ユーザーと接続済みアカウントのための明確なルール",
+    "description": "認可済みアカウントのデータ処理方法をご確認ください。",
+    "privacyButton": "プライバシーポリシー",
+    "termsButton": "利用規約"
+  },
+  "contact": {
+    "eyebrow": "お問い合わせ",
+    "title": "VISについてご質問がありますか？",
+    "description": "サービス、プライバシー、アカウント接続解除についてお問い合わせください。",
+    "email": "contact@vis.example",
+    "temporaryNotice": "この仮メールアドレスは公式ドメイン登録後に変更されます。"
+  },
+  "footer": {
+    "description": "VISは認可済みソーシャルメディア接続を通じてデジタルコンテンツを作成・管理・公開するAIプラットフォームです。",
+    "home": "ホーム",
+    "privacy": "プライバシー",
+    "terms": "利用規約",
+    "contact": "お問い合わせ",
+    "copyright": "© 2026 VIS — Viral Intelligence System.",
+    "rights": "無断転載を禁じます。"
+  }
+}

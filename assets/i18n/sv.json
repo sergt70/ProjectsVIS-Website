@@ -1,0 +1,115 @@
+{
+  "meta": {
+    "language": "sv",
+    "locale": "sv_SE",
+    "title": "VIS — AI-driven innehållsskapande och publicering",
+    "description": "VIS är en AI-baserad plattform som hjälper kreatörer, företag och organisationer att skapa, hantera och publicera digitalt innehåll på flera sociala medieplattformar.",
+    "keywords": "VIS, Viral Intelligence System, AI-plattform, innehållsskapande, sociala medier, innehållshantering, OAuth"
+  },
+  "navigation": {
+    "skipToContent": "Gå till huvudinnehållet",
+    "homeAriaLabel": "VIS startsida",
+    "primaryAriaLabel": "Huvudnavigering",
+    "languageAriaLabel": "Välj språk",
+    "platform": "Plattform",
+    "capabilities": "Funktioner",
+    "security": "Säkerhet",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "eyebrow": "VIS officiella webbplats",
+    "title": "Skapa, hantera och publicera innehåll",
+    "titleAccent": "med AI-automatisering",
+    "description": "VIS är en AI-baserad plattform som hjälper kreatörer, företag och organisationer att skapa, hantera och publicera digitalt innehåll på flera sociala medieplattformar.",
+    "primaryButton": "Öppna VIS",
+    "secondaryButton": "Integritetspolicy",
+    "noteOAuth": "Officiella OAuth-anslutningar",
+    "noteAuthorized": "Endast auktoriserade konton",
+    "noteEncrypted": "Krypterad tokenlagring",
+    "previewWorkflowLabel": "Innehållsflöde",
+    "previewWorkflowValue": "AI-stött",
+    "previewPublishingLabel": "Publicering",
+    "previewPublishingValue": "Auktoriserad",
+    "previewOperationsLabel": "Plattformsöverskridande arbete"
+  },
+  "platform": {
+    "eyebrow": "Plattform",
+    "title": "En arbetsyta för moderna digitala innehållsprocesser",
+    "description": "VIS stöder strukturerade arbetsflöden från förberedelse och hantering till auktoriserad publicering och resultatanalys.",
+    "creationTitle": "Innehållsskapande",
+    "creationText": "Skapa digitalt innehåll med AI-stödda processer samtidigt som du behåller kontrollen.",
+    "managementTitle": "Innehållshantering",
+    "managementText": "Organisera publiceringsklart material, plattformsspecifika texter och medieresurser i ett enhetligt arbetsflöde.",
+    "publishingTitle": "Auktoriserad publicering",
+    "publishingText": "Publicera endast till konton som deras ägare frivilligt har anslutit via officiell auktorisering."
+  },
+  "capabilities": {
+    "eyebrow": "Viktiga funktioner",
+    "title": "För kreatörer, företag och auktoriserad kontohantering",
+    "description": "VIS kan användas av kreatörer, organisationer och byråer med nödvändiga behörigheter.",
+    "multiPlatformTitle": "Plattformsöverskridande innehållshantering",
+    "multiPlatformText": "Förbered och hantera innehåll för flera sociala plattformar utan att dela lösenord eller kringgå regler.",
+    "multiPlatformItems": [
+      "Plattformsspecifik innehållsförberedelse",
+      "Strukturerade publiceringsflöden",
+      "Auktoriserade kontoanslutningar",
+      "Status- och resultatövervakning"
+    ],
+    "responsibleTitle": "Ansvarsfull automatisering",
+    "responsibleText": "VIS automatiserar återkommande uppgifter samtidigt som kontoägande, behörigheter och plattformskrav respekteras.",
+    "responsibleItems": [
+      "Ingen insamling av lösenord",
+      "Ingen obehörig åtkomst",
+      "Inga garantier för visningar eller intäkter",
+      "Ingen användning för spam eller vilseledande aktiviteter"
+    ]
+  },
+  "security": {
+    "eyebrow": "OAuth och dataskydd",
+    "title": "Konton förblir under ägarnas kontroll",
+    "description": "VIS använder officiella OAuth-mekanismer. Åtkomsten begränsas till godkända behörigheter.",
+    "items": [
+      {
+        "title": "Ingen lagring av lösenord",
+        "text": "VIS begär eller lagrar inte lösenord för anslutna konton."
+      },
+      {
+        "title": "Behörighetsbaserad åtkomst",
+        "text": "Funktioner utförs endast inom godkända OAuth-behörigheter."
+      },
+      {
+        "title": "Krypterade token",
+        "text": "OAuth-token lagras i krypterad form."
+      },
+      {
+        "title": "Återkallbara anslutningar",
+        "text": "Kontoinnehavaren kan när som helst återkalla åtkomst eller begära borttagning av relaterade uppgifter."
+      }
+    ],
+    "noticeLabel": "Viktigt:",
+    "noticeText": "VIS säljer inte personuppgifter och garanterar inte visningar, räckvidd, följare eller intäkter."
+  },
+  "policies": {
+    "eyebrow": "Transparens",
+    "title": "Tydliga regler för användare, kunder och anslutna konton",
+    "description": "Läs hur VIS behandlar data från auktoriserade konton och vilka villkor som gäller.",
+    "privacyButton": "Integritetspolicy",
+    "termsButton": "Användarvillkor"
+  },
+  "contact": {
+    "eyebrow": "Kontakt",
+    "title": "Frågor om VIS eller anslutna konton?",
+    "description": "Kontakta VIS-teamet vid frågor om tjänsten, integritet eller frånkoppling av ett konto.",
+    "email": "contact@vis.example",
+    "temporaryNotice": "Denna tillfälliga e-postadress ersätts när VIS officiella domän registreras."
+  },
+  "footer": {
+    "description": "VIS är en AI-baserad plattform för att skapa, hantera och publicera digitalt innehåll via auktoriserade anslutningar till sociala medier.",
+    "home": "Startsida",
+    "privacy": "Integritet",
+    "terms": "Användarvillkor",
+    "contact": "Kontakt",
+    "copyright": "© 2026 VIS — Viral Intelligence System.",
+    "rights": "Alla rättigheter förbehållna."
+  }
+}

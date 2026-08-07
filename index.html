@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>VIS — Viral Intelligence System</title>
+
+    <meta
+        name="description"
+        content="VIS — Viral Intelligence System official website."
+    >
+    <meta name="robots" content="noindex, follow">
+    <meta name="theme-color" content="#07111F">
+
+    <link
+        rel="icon"
+        href="assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon.ico"
+        sizes="any"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="32x32"
+        href="assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon-32x32.png"
+    >
+    <link
+        rel="icon"
+        type="image/png"
+        sizes="16x16"
+        href="assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/favicon-16x16.png"
+    >
+    <link
+        rel="apple-touch-icon"
+        sizes="180x180"
+        href="assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/apple-touch-icon.png"
+    >
+    <link
+        rel="manifest"
+        href="assets/images/BrandAssets/VIS_Brand_Assets_v1.0/03_Favicons/site.webmanifest"
+    >
+
+    <script>
+        (function () {
+            const supportedLanguages = ["en", "ru", "es"];
+            const defaultLanguage = "en";
+
+            function redirectToLanguage(language) {
+                window.location.replace("./" + language + "/");
+            }
+
+            try {
+                const savedLanguage = localStorage.getItem("vis-language");
+
+                if (savedLanguage && supportedLanguages.includes(savedLanguage)) {
+                    redirectToLanguage(savedLanguage);
+                    return;
+                }
+            } catch (error) {
+                // Continue with browser-language detection when localStorage is unavailable.
+            }
+
+            const browserLanguage = (
+                navigator.language ||
+                navigator.userLanguage ||
+                defaultLanguage
+            )
+                .substring(0, 2)
+                .toLowerCase();
+
+            redirectToLanguage(
+                supportedLanguages.includes(browserLanguage)
+                    ? browserLanguage
+                    : defaultLanguage
+            );
+        })();
+    </script>
+
+    <noscript>
+        <meta http-equiv="refresh" content="0; url=./en/">
+    </noscript>
+</head>
+
+<body>
+    <noscript>
+        <main>
+            <h1>VIS — Viral Intelligence System</h1>
+            <p>Select a language:</p>
+
+            <p>
+                <a href="./en/">English</a><br>
+                <a href="./ru/">Русский</a><br>
+                <a href="./es/">Español</a>
+            </p>
+        </main>
+    </noscript>
+</body>
+</html>
