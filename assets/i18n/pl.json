@@ -100,8 +100,8 @@
     "eyebrow": "Kontakt",
     "title": "Masz pytania dotyczące VIS lub połączonych kont?",
     "description": "Skontaktuj się z zespołem VIS w sprawach dotyczących usługi, prywatności lub odłączenia konta.",
-    "email": "contact@vis.example",
-    "temporaryNotice": "Ten tymczasowy adres e-mail zostanie zastąpiony po rejestracji oficjalnej domeny VIS."
+    "email": "contact@visautomation.com",
+    "temporaryNotice": ""
   },
   "footer": {
     "description": "VIS to platforma AI do tworzenia, zarządzania i publikowania treści cyfrowych za pośrednictwem autoryzowanych połączeń z mediami społecznościowymi.",

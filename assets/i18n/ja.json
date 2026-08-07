@@ -100,8 +100,8 @@
     "eyebrow": "お問い合わせ",
     "title": "VISについてご質問がありますか？",
     "description": "サービス、プライバシー、アカウント接続解除についてお問い合わせください。",
-    "email": "contact@vis.example",
-    "temporaryNotice": "この仮メールアドレスは公式ドメイン登録後に変更されます。"
+    "email": "contact@visautomation.com",
+    "temporaryNotice": ""
   },
   "footer": {
     "description": "VISは認可済みソーシャルメディア接続を通じてデジタルコンテンツを作成・管理・公開するAIプラットフォームです。",

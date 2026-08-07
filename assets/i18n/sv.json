@@ -100,8 +100,8 @@
     "eyebrow": "Kontakt",
     "title": "Frågor om VIS eller anslutna konton?",
     "description": "Kontakta VIS-teamet vid frågor om tjänsten, integritet eller frånkoppling av ett konto.",
-    "email": "contact@vis.example",
-    "temporaryNotice": "Denna tillfälliga e-postadress ersätts när VIS officiella domän registreras."
+    "email": "contact@visautomation.com",
+    "temporaryNotice": ""
   },
   "footer": {
     "description": "VIS är en AI-baserad plattform för att skapa, hantera och publicera digitalt innehåll via auktoriserade anslutningar till sociala medier.",

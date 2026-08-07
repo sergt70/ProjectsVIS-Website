@@ -100,8 +100,8 @@
     "eyebrow": "Contact",
     "title": "Vragen over VIS of gekoppelde accounts?",
     "description": "Neem contact op met het VIS-team voor service-, privacy- of ontkoppelingsverzoeken.",
-    "email": "contact@vis.example",
-    "temporaryNotice": "Dit tijdelijke e-mailadres wordt vervangen zodra het officiële VIS-domein is geregistreerd."
+    "email": "contact@visautomation.com",
+    "temporaryNotice": ""
   },
   "footer": {
     "description": "VIS is een AI-platform voor het maken, beheren en publiceren van digitale content via geautoriseerde sociale-media-verbindingen.",

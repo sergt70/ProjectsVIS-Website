@@ -100,8 +100,8 @@
     "eyebrow": "Yhteystiedot",
     "title": "Kysymyksiä VISistä tai yhdistetyistä tileistä?",
     "description": "Ota yhteyttä VIS-tiimiin palvelua, tietosuojaa tai tilin poistamista koskevissa asioissa.",
-    "email": "contact@vis.example",
-    "temporaryNotice": "Tämä väliaikainen sähköpostiosoite korvataan, kun VISin virallinen verkkotunnus rekisteröidään."
+    "email": "contact@visautomation.com",
+    "temporaryNotice": ""
   },
   "footer": {
     "description": "VIS on tekoälypohjainen alusta digitaalisen sisällön luomiseen, hallintaan ja julkaisemiseen valtuutettujen sosiaalisen median yhteyksien kautta.",

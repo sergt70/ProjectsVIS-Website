@@ -100,8 +100,8 @@
     "eyebrow": "联系",
     "title": "对 VIS 或已连接账户的数据有疑问？",
     "description": "如有服务、隐私或账户断开连接相关问题，请联系 VIS 团队。",
-    "email": "contact@vis.example",
-    "temporaryNotice": "该临时电子邮箱将在 VIS 官方域名注册后更换。"
+    "email": "contact@visautomation.com",
+    "temporaryNotice": ""
   },
   "footer": {
     "description": "VIS 是一个通过已授权社交媒体连接来创建、管理和发布数字内容的 AI 平台。",

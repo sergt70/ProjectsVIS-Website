@@ -100,8 +100,8 @@
     "eyebrow": "Contacto",
     "title": "Tem dúvidas sobre a VIS ou os dados de contas ligadas?",
     "description": "Contacte a equipa da VIS para questões relacionadas com o serviço, a privacidade ou a desvinculação de uma conta.",
-    "email": "contact@vis.example",
-    "temporaryNotice": "Este endereço de correio eletrónico temporário será substituído quando o domínio oficial da VIS for registado."
+    "email": "contact@visautomation.com",
+    "temporaryNotice": ""
   },
   "footer": {
     "description": "A VIS é uma plataforma baseada em IA para criar, gerir e publicar conteúdos digitais através de ligações autorizadas a redes sociais.",
