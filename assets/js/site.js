@@ -656,6 +656,7 @@
                 setTexts(".main-nav a", [
             translations.navigation?.platform,
             translations.navigation?.capabilities,
+            translations.navigation?.projects,
             translations.navigation?.security,
             translations.navigation?.contact
         ]);
